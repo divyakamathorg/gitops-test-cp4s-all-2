@@ -1,0 +1,22 @@
+"metadata":
+  "name": "threatmgmt"
+  "namespace": "cp4s"
+"spec":
+  "acceptLicense": true
+  "basicDeploymentConfiguration":
+    "adminUser": "dimallya@in.ibm.com"
+    "domain": ""
+    "storageClass": "ibmc-block-gold"
+  "extendedDeploymentConfiguration":
+    "airgapInstall": false
+    "backupStorageClass": ""
+    "backupStorageSize": ""
+    "imagePullPolicy": "Always"
+    "repository": "cp.icr.io/cp/cp4s"
+    "repositoryType": "entitled"
+    "roksAuthentication": "true"
+  "threatManagementCapabilities":
+    "deployDRC": true
+    "deployRiskManager": true
+    "deployThreatInvestigator": true
+
